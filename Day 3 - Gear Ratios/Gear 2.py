@@ -1,8 +1,7 @@
 import re
 
 with open('input', 'r') as f:
-    data = f.read()
-    file = data.splitlines()
+    file = f.read().splitlines()
 
 
 def find_adjacent_gear(num, length, row, col):

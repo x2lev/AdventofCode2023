@@ -18,17 +18,12 @@ def power_of_max_cubes(t):
 
 if __name__ == '__main__':
     total_power = 0
-    total_power_re = 0
 
     game = 0
     for line in file:
         game += 1
-        trials = line[len(f'Game {game}: '):-1].split('; ')
-        trials_re = [{(s := match.split())[1]: int(s[0]) for match in re.findall(r'\d+ (?:red|green|blue)', trial)} for
-                     trial in trials]
-        trials = [{c: int(n) for n, c in [cube.split() for cube in cubes.split(', ')]} for cubes in trials]
+        trials = [{match.group(2): int(match.group(1)) for match in re.finditer(r'(\d+) (red|green|blue)', trial)}
+                  for trial in line[len(f'Game {game}: '):-1].split('; ')]
         total_power += power_of_max_cubes(trials)
-        total_power_re += power_of_max_cubes(trials_re)
 
     print(total_power)
-    print(total_power_re)
