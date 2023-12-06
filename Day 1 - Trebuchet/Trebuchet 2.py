@@ -2,6 +2,7 @@ import re
 
 with open('input', 'r') as f:
     file = f.readlines()
+words = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
 
 def find_digit_by_regex(line, reverse=False):
