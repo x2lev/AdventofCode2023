@@ -1,7 +1,7 @@
 import re
 from typing import Match
 
-face_val = '23456789TJQKA'
+face_val = 'J23456789TQKA'
 hand_type = ['hc', '1p', '2p', '3k', 'fh', '4k', '5k']
 
 
@@ -15,7 +15,10 @@ class Hand:
         return f'hand={self.hand}, type={self.type} bid={self.bid}'
 
     def _type(self):
-        hand_num = sorted(self.hand.count(c) for c in set(self.hand))
+        hand_num = {c: self.hand.count(c) for c in set(self.hand) if c != 'J'}
+        max_card = max(hand_num, key=lambda x: hand_num[x]) if hand_num else 'J'
+        best_hand = str(self.hand.replace('J', max_card))
+        hand_num = sorted(best_hand.count(c) for c in set(best_hand))
         if hand_num == [5]:
             return '5k'
         elif hand_num == [1, 4]:
