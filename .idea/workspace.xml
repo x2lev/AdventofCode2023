@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe0cd13-fa48-4c22-83e2-c960bffe1abe" name="Changes" comment="Renamed the folders and gitignored .idea">
-      <change afterPath="$PROJECT_DIR$/Day 11 - Cosmic Expansion/Cosmic 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 11 - Cosmic Expansion/Cosmic 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 11 - Cosmic Expansion/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 11 - Cosmic Expansion/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 12 - Hot Springs/Springs 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 12 - Hot Springs/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 12 - Hot Springs/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2ZMQFQBPGKvsS5821gzUrGcO4n4" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -41,24 +39,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Cosmic 1.executor": "Run",
-    "Python.Cosmic 2.executor": "Run",
     "Python.Pipe 1.executor": "Run",
     "Python.Pipe 2.executor": "Run",
+    "Python.Springs 1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Lev/PycharmProjects/AdventofCode2023/Day 11 - Cosmic Expansion"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lev\PycharmProjects\AdventofCode2023\Day 11 - Cosmic Expansion" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.Cosmic 2">
-    <configuration name="Cosmic 1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="AdventofCode2023" />
+  <component name="RunManager" selected="Python.Springs 1">
+    <configuration name="Pipe 2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <output_file path="C:\Users\Lev\PycharmProjects\AdventofCode2023\Day 10 - Pipe Maze\output" is_save="true" />
+      <module name="Advent of Code 2023" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +57,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 11 - Cosmic Expansion" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_NAME" value="Python 3.12 (AdventofCode2023)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 10 - Pipe Maze" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 11 - Cosmic Expansion/Cosmic 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 10 - Pipe Maze/Pipe 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Cosmic 2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Springs 1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AdventofCode2023" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 11 - Cosmic Expansion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 12 - Hot Springs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 11 - Cosmic Expansion/Cosmic 2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 12 - Hot Springs/Springs 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
